@@ -102,3 +102,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 STATIC_URL = '/static/'
+
+BOOTSTRAP3 = {
+    'theme_url': 'http://bootswatch.com/darkly/bootstrap.min.css'
+}
